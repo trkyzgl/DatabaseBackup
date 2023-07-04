@@ -30,28 +30,7 @@ namespace DatabaseBackup
 
         private void DatabaseBackup_Form_Load(object sender, EventArgs e)
         {
-            /*
-
-            var server = new Microsoft.SqlServer.Management.Smo.Server(".\\YUZGUL");
-            var database_num = 0;
-
-            foreach (Database db in server.Databases)
-            {
-                comboBox_veritabani.Items.Add(db.Name);
-                listBox_veritabanlari.Items.Add(db.Name);
-                database_num++;
-            }
-            database_array = new string[database_num];
-
-            int i = 0;
-            foreach (Database db in server.Databases)
-            {
-                database_array[i] = db.Name;
-                Console.WriteLine(database_array[i]);
-                i++;
-            }
-            textBox_path.Text = path;
-            */
+           
 
             string ServerName = Environment.MachineName;
             Microsoft.Win32.RegistryView registryView = Environment.Is64BitOperatingSystem ? Microsoft.Win32.RegistryView.Registry64 : Microsoft.Win32.RegistryView.Registry32;
