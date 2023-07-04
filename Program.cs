@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace BetechBackup
+namespace DatabaseBackup
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace BetechBackup
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new BetechBackup_Form());
+            Application.Run(new DatabaseBackup_Form());
         }
     }
 }

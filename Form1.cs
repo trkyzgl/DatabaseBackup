@@ -14,11 +14,11 @@ using System.IO;
 using System.Data.Sql;
 using Microsoft.SqlServer.Management.Smo.Agent;
 
-namespace BetechBackup
+namespace DatabaseBackup
 {
-    public partial class BetechBackup_Form : Form
+    public partial class DatabaseBackup_Form : Form
     {
-        public BetechBackup_Form()
+        public DatabaseBackup_Form()
         {
             InitializeComponent();
         }
@@ -28,7 +28,7 @@ namespace BetechBackup
 
         string[] database_array;
 
-        private void BetechBackup_Form_Load(object sender, EventArgs e)
+        private void DatabaseBackup_Form_Load(object sender, EventArgs e)
         {
             /*
 

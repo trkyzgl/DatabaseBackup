@@ -1,7 +1,7 @@
 ﻿
-namespace BetechBackup
+namespace DatabaseBackup
 {
-    partial class BetechBackup_Form
+    partial class DatabaseBackup_Form
     {
         /// <summary>
         /// Required designer variable.
@@ -142,7 +142,7 @@ namespace BetechBackup
             this.cmbServerName.TabIndex = 12;
             this.cmbServerName.SelectedIndexChanged += new System.EventHandler(this.cmbServerName_SelectedIndexChanged);
             // 
-            // BetechBackup_Form
+            // DatabaseBackup_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -158,10 +158,10 @@ namespace BetechBackup
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "BetechBackup_Form";
+            this.Name = "DatabaseBackup_Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "BetechBackup";
-            this.Load += new System.EventHandler(this.BetechBackup_Form_Load);
+            this.Text = "DatabaseBackup";
+            this.Load += new System.EventHandler(this.DatabaseBackup_Form_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
